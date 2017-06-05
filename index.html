@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<style>
+    body
+    {
+        margin-bottom: 0;
+    }
+    .navbar
+    {
+        position: fixed;
+        width:100%;
+        z-index: 1000;
+        font-size: 15px;
+        margin-bottom: 0px;
+        border-radius: 0;
+    }
+    .navbar-nav  li a:hover 
+    {
+        background-color: #1abc9c !important;
+    }
+    .bg-1,.bg-3
+    {
+        padding: 100px;
+        background-color: #f6f6f6;
+    }
+    .bg-2
+    {
+        padding: 100px;
+        background-color: floralwhite;
+    }
+    .img
+    {
+        border: none !important;
+    }
+    h1
+    {
+        font-family: Monospace;
+        color: lightblue;
+    }
+    #info
+    {
+        text-align: left !important;
+        font-size: 3em;
+    }
+    .thumbnail 
+    {
+        padding: 0 0 15px 0;
+        border: none !important;
+        border-radius: 0;
+        background-color: #f6f6f6 !important;
+    }
+    .bg-4
+    {
+        background-color: black;
+        padding: 10px;
+        color: cornflowerblue;
+    }
+    .btn: hover
+    {
+        background-color: aqua !important;
+    }
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#conatct">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bg-1 text-center" id="home">
+  <img src="http://i.stack.imgur.com/WCveg.jpg" class="img-responsive img-thumbnail img">
+  <h1>Hi I am Mr. Parrot, welcome to my page</h1>
+</div>
+<div class="container-fluid bg-2 text-center" id="about">
+  <blockquote class="blockquote"><p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <footer class="blockquote-footer"><cite>Someone Famous</cite></footer>
+      </blockquote>
+    <p id="info"> I am a web development enthusisast from jaipur lookin to expand my skillset, that's why I created this demo page, and will be improving this in coming time.</p>
+</div>
+<div class="conatiner-fluid bg-3" id="work">
+    <h2 class="text-center">Some of my work</h2>
+    <div class="row">
+        <div clas="col-sm-6">
+            <div class="thumbnail">
+                <img src="https://sanescohealth.com/wp-content/uploads/2016/02/shutterstock_241060972-Converted-1024x1024.png" width="300" height="300" class="img-responsive">
+                <p class="text-center work" style="font-family: Monospace">Will be updating this soon</p>
+            </div>
+        </div>    
+    </div>
+</div>
+<footer class="container-fluid bg-4 text-center" id="conatct">
+    <p style="font-size: 15px"> You can reach me at  <a class="btn btn-social-icon btn-facebook">
+    <span class="fa fa-facebook"></span> facebook
+  </a></p>
+</footer>
+</body>   
+</html>
